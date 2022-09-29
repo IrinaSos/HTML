@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Main</a>
+        <a href="index.html#compare">Comparison with 13 Pro</a>
+        <a href="review.html">Reviews</a>
+        <a href="order.html">Order</a>
+    </nav>
+    <h1>Order iPhone 13 Pro Max</h1>
+</header>
+<main>
+    <form action="https://webhook.site/e21916e2-988c-472b-972e-8be0a90b9b92" method="post">
+        <div>
+            <label>
+                First Name
+                <input type="text" name="First Name" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Last Name
+                <input type="text" name="Last Name" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Phone
+                <select name="City Code">
+                    <option value="+375">+375</option>
+                    <option value="+7">+7</option>
+                    <option value="+380">+380</option>
+                </select>
+                <input type="text" name="Phone Number" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Email
+                <input type="email" name="Email" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Memory Size
+                <select name="Memory Size">
+                    <option value="64">64</option>
+                    <option value="256">256</option>
+                    <option value="512">512</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            Delivery Method
+            <br>
+            <label>
+                <input type="radio" value="Courier" name="Delivery" required>Courier
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="Pick Up" name="Delivery">Pick Up
+            </label>
+        </div>
+        <br>
+        <div>
+            Add to Order
+            <br>
+            <label>
+                <input type="checkbox" value="Transparent case" name="Items[]">Transparent case
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Wireless charger MagSafe" name="Items[]">Wireless charger MagSafe
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" value="Headphones AirPods" name="Items[]">Headphones AirPods
+            </label>
+        </div>
+        <br>
+        <div>
+            Order Comment
+            <br>
+            <label>
+                <textarea name="Comment" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <input type="checkbox" value="accepted" name="Terms and Conditions" required>I accept
+                <a href="https://google.com">the terms of the site</a>
+            </label>
+        </div>
+        <br>
+        <button type="submit">Order</button>
+    </form>
+</main>
+<br>
+<br>
+<br>
+<footer>
+    <hr>
+    <p>All rights reserved</p>
+</footer>
+</body>
+</html>
